@@ -25,6 +25,11 @@ def generate_launch_description():
             'robot_type': 'xarm',
             'hw_ns': hw_ns,
             'no_gui_ctrl': 'false',
+            'add_realsense_d435i':'true',
+            'add_gripper':'true',
+            'realsense_attach_to': 'world',  # Attach RealSense to world
+            'realsense_attach_xyz': '0 0 1.5',  # Position above the table (adjust as needed)
+            'realsense_attach_rpy': '0 0 0'
         }.items(),
     )
     

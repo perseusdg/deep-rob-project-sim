@@ -25,6 +25,9 @@ def generate_launch_description():
             'robot_type': 'lite',
             'hw_ns': hw_ns,
             'no_gui_ctrl': 'false',
+            'add_realsense_d435i':'true',
+            'add_gripper':'true',
+            'add_d435i_links':'true',
         }.items(),
     )
     

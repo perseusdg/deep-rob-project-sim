@@ -21,6 +21,7 @@ find_package(rclcpp REQUIRED)
 find_package(control_toolbox REQUIRED)
 find_package(controller_manager REQUIRED)
 find_package(gazebo_ros REQUIRED)
+find_package(realsense_gazebo_plugin REQUIRED)
 
 # uncomment the following section in order to fill in
 # further dependencies manually.

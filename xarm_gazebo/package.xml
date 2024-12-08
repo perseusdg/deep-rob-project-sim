@@ -15,6 +15,7 @@
   <depend>gazebo_ros</depend>
   <depend>xarm_description</depend>
   <depend>xarm_controller</depend>
+  <depend>realsense_gazebo_plugin</depend>
 
   <exec_depend>launch</exec_depend>
   <exec_depend>launch_ros</exec_depend>
